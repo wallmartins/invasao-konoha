@@ -1,0 +1,40 @@
+.intersection-container {
+  width: 100%;
+  height: 712px;
+  display: grid;
+  align-content: center;
+  justify-content: center;
+}
+
+.bg-shinra-tensei {
+  background: url("../img/shinra-tensei.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-rasengan {
+  background: url("../img/rasengan-final.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-heroi {
+  background: url("../img/heroi.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.intersection-text {
+  text-align: center;
+  font-family: var(--secondary-font);
+}
+
+.text-white {
+  font-size: 4rem;
+  color: var(--text-white);
+}
+
+.text-orange {
+  font-size: 3rem;
+  color: var(--text-orange);
+}

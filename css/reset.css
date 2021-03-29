@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+}
+
+body,
+section,
+div,
+nav,
+ul,
+li,
+p,
+a,
+h1,
+h2,
+h3 {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}

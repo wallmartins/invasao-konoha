@@ -1,0 +1,20 @@
+@font-face {
+  font-family: "gang-of-three";
+  src: url("./fonts/go3v2.ttf") format("truetype");
+  font-weight: normal;
+}
+
+:root {
+  --background-color: #f2f2f2;
+  --text-orange: #ff8a38;
+  --text-white: #fff;
+  --text-black: #000;
+  --primary-font: "Source Sans Pro", sans-serif;
+  --secondary-font: "gang-of-three", monospace;
+}
+
+body {
+  width: 100%;
+  font-family: var(--primary-font);
+  color: var(--text-black);
+}
